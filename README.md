@@ -1,2 +1,2 @@
-# ynot.github.io
+# ynotbebek.github.io
 Tugas Mapel SIJDA
