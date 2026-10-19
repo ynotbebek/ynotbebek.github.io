@@ -5,12 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
+      <!-- Tambahkan CSS ini untuk mengatur susunan gambar -->
+    <style>
+        .galeri {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Membuat 2 kolom sejajar */
+            gap: 10px; /* Memberi jarak antar gambar */
+        }
+        
+        .galeri img {
+            width: 100%; /* Membuat gambar menyesuaikan lebar kolom */
+            height: auto;
+            border-radius: 5px; /* (Opsional) agar sudut gambar sedikit melengkung */
+        }
+    </style>
 </head>
-<body>
+  <body>
   <h2>Menambahkan Gambar</h2>
   <p>Hasil</p>
   <!--Gambar-->
-  <img src="season-5.jpg"alt="gambar"width="400"
+  <img src="season-5.jpg"alt="gambar 1"width="150"
+  <!--Gambar-->
+  <img src="season-8.jpg"alt="gambar 2"width="150"
+  <!--Gambar-->
+  <img src="movie.jpg"alt="gambar 3"width="150" style="vertical-align: top;">
+  <a href="https://www.instagram.com/publikasi_smkn1leuwimunding/p/DdLryNvvhFo/">Foto SMKN 1 Leuwimunding</a>
   
   <p><a href="index.html">kembali ke menu utama</a>
   </p>
